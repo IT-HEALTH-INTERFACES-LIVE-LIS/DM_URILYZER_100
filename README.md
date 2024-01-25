@@ -8,7 +8,10 @@ _Interfaz de comunicacion DM Urilyzer 100 para integrar los clientes que usen el
 * **Desarrollador:** Ing. Alejandro Vásquez
 * **Tester:** Ing. Gerardo Piñeros 
 
-### Version 📌
+### Version GIT📌
+ * _1.0.0_
+
+### Version Interfaz📌
  * _1.0.0_
 
 ### Licencia 📄
