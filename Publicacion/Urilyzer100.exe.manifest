@@ -3,7 +3,7 @@
   <asmv1:assemblyIdentity name="Urilyzer100.exe" version="1.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="Urilyzer100" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="Urilyzer100" version="1.0.1.0" language="neutral" processorArchitecture="msil" />
     <commandLine file="Urilyzer100.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -187,13 +187,13 @@
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Urilyzer100.exe" size="430080">
-      <assemblyIdentity name="Urilyzer100" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="Urilyzer100" version="1.0.1.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>sUJ++yiUbPf7kZ0uaEFr34Xk/0kUXQKlxB+e4Ja+T0E=</dsig:DigestValue>
+        <dsig:DigestValue>pXSWnIZf5+4WAjK7CJgzziSJkQ6r+owewZw10rWo/2E=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

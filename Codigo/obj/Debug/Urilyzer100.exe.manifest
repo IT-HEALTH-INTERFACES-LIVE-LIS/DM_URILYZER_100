@@ -193,17 +193,17 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>OHDPmTgpcOH05yViP4qmjvKyJLqKCIleNzAFV7Fr9lw=</dsig:DigestValue>
+        <dsig:DigestValue>GL3oCcQnAeOTc6qSPUdKDkcvLpe7P1vbNA2KxN3XIhI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="Urilyzer100.exe.config" size="3197">
+  <file name="Urilyzer100.exe.config" size="3193">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>dyPI0qBp2Ma0K7jlGYxQ34i6KsRbYfGSzRPaY12PZyo=</dsig:DigestValue>
+      <dsig:DigestValue>K47t/L2jLRfRwipbBSRnsLmwsJcY0djsJsYsjtP01zE=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>
