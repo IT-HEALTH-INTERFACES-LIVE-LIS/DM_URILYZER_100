@@ -9,7 +9,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyDescription("AnnarComm - Urilyzer100")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("ITHEALTH")]
-[assembly: AssemblyProduct("AnnarComm - Urilyzer100 - 1.0.0")]
+[assembly: AssemblyProduct("AnnarComm - Urilyzer100")]
 [assembly: AssemblyCopyright("Copyright ©  2024")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -29,5 +29,5 @@ using System.Runtime.InteropServices;
 //      Build Number
 //      Revision
 //
-[assembly: AssemblyVersion("1.0.0")]
-[assembly: AssemblyFileVersion("1.0.0")]
+[assembly: AssemblyVersion("1.0.1")]
+[assembly: AssemblyFileVersion("1.0.1")]

@@ -428,7 +428,8 @@ namespace Urilyzer100.Forms
 
                 if (strLineaResultado.Length > 0)
                 {
-                    ProcesarResultados(ArrPaqueteResultado);
+                    string tokenObtenido = servicioLiveLis.ObtenerToken(); 
+                    ProcesarResultados(ArrPaqueteResultado, tokenObtenido);
                 }
 
                 strLineaResultado = "";
@@ -657,7 +658,7 @@ namespace Urilyzer100.Forms
         #endregion
 
         #region Metodos formulario resultados
-        public string ProcesarResultados(List<string> PaqueteResultado)
+        public string ProcesarResultados(List<string> PaqueteResultado, string tokenObtenido)
         {
             MensajesEstadosTerminal("Inicio de procesamiento de resultados", EnumEstados.Process);
 
@@ -718,7 +719,7 @@ namespace Urilyzer100.Forms
                             resultadoAnalitoJson.reactive = InterfaceConfig.reactive;
                             resultadoAnalitoJson.result = resultadoAnalito;
 
-                            servicioLiveLis.EnviarResultados(resultadoAnalitoJson);
+                            servicioLiveLis.EnviarResultados(resultadoAnalitoJson, tokenObtenido);
                             continue;
                         }
                         catch (Exception ex)
